@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    background: #111;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    background: url("assets/bg1.jpeg");
+    background-size: cover;
+    color: #e5e5e5;
+  }
+
+  header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 42px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 0 15px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 700;
+  }
+
+  main {
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+  }
+
+  main .right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#373232;
+    height: calc(100vh - 350px);
+    width: 35%;
+    margin-left: 15%;
+    border-radius: 20px;
+  }
+
+  main .right-section p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  main .right-section form {
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+  }
+
+  main .right-section input:first-child {
+    margin-top: -25px;
+  }
+
+  main .right-section input {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0 5px;
+    outline: 0;
+    align-self: center;
+    background-color: #e5e5e5;
+  }
+
+  main .right-section button {
+    width: 40%;
+    padding: 15px;
+    align-self: center;
+    background-color: #e5e5e5;
+    border: 0;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  main .right-section button:hover {
+    cursor: pointer;
+    background-color: #999;
+    transition: .3s all ease-in;
+    color: #e5e5e5;
+  }
+
+  main .images-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    width: 560px;
+    border-radius: 30px;
+    background-color: rgba(128, 255, 0, 0.7);
+  }
+
+  main .image-container{
+    border: solid 2px black;
+    width: 254px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    margin: 10px;
+  }
+
+  main img {
+    border-radius: 30px;
+  }
+
+  main h2 {
+    color: black;
+  }
