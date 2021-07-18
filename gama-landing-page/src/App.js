@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import"./styles.css";
+import "/styles.css";
 
 import groot1 from "./assets/baby-groot-1.jpeg"
 import groot2 from "./assets/baby-groot-2.jpeg"
