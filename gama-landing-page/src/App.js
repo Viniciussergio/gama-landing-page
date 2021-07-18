@@ -52,27 +52,27 @@ function App() {
       <main role="main">
         <section className="images-section">
           <div className="image-container">
-            <img src={groot1} width="250px" height="auto"></img>
+            <img src={groot1} width="250px" height="auto" alt="Baby Groot 1"></img>
             <h2>Baby Groot</h2>
           </div>
           <div className="image-container">
-            <img src={juliusCesar} width="250px" height="auto"></img>
+            <img src={juliusCesar} width="250px" height="auto" alt="Julius Cesar"></img>
             <h2>Julius Cesar</h2>
           </div>
           <div className="image-container">
-            <img src={bodyBuilder} width="250px" height="auto"></img>
+            <img src={bodyBuilder} width="250px" height="auto" alt="Body Builder"></img>
             <h2>Body Builder</h2>
           </div>
           <div className="image-container">
-            <img src={estatuaPascoa} width="250px" height="auto"></img>
+            <img src={estatuaPascoa} width="250px" height="auto" alt="Estatua Pascoa"></img>
             <h2>Estátua Páscoa</h2>
           </div>
           <div className="image-container">
-            <img src={homerSimpson} width="250px" height="auto"></img>
+            <img src={homerSimpson} width="250px" height="auto" alt="Homer Simpson"></img>
             <h2>Homer Simpson</h2>
           </div>
           <div className="image-container">
-            <img src={groot2} width="250px" height="auto"></img>
+            <img src={groot2} width="250px" height="auto" alt="Baby Groot 2"></img>
             <h2>Baby Groot</h2>
           </div>
         </section>
